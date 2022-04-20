@@ -5,32 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundamentos Web</title>
+    <link rel="stylesheet" href="assets/CSS/style.css">
 </head>
 <body>
+    <ul id="menu">
+        <li>
+            <a href ="index.html"> Home </a>
+        </li>
+        <li>
+            <a href="contato.html"> Contato </a>
+        </li>
+    </ul>
     <main>
-        <section>
-            <h1>Fundamentos Web</h1>
-            <p>Olá pessoal! Vamos falar aqui sobre alguns fundamentos da web
+        <h1 class="center">Fundamentos Web</h1>
+        <div class="container">
+            <div class="p-30">
+                <p class="justify">Olá pessoal! Vamos falar aqui sobre alguns fundamentos da web
                 para que possamos iniciar, na prática, os estudo das principais 
                 tecnologias para construir nossas API's na Web.
-                <br>
                 Iremos tratar de alguns conceitos como: Aplicação Web, Front End,
                 Back End, HTML, CSS, JavaScript e entre outros.
-            </p>
-
-            <img src="/assets/html-css-ou-javascript-qual-aprender-primeiro-1499777555318_600x320.jpg" alt="Tecnologias Web">
-
-            <h2>Como Começar no Desenvolvimento Web (Guia para Iniciantes)</h2>
-            <iframe 
-            width="600" 
-            height="315" 
-            src="https://www.youtube.com/embed/kirjakF8yh4" 
-            title="YouTube video player" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-            </iframe>
-
+                </p>
+            </div>
+            
+            <div>
+                <img class="br-50 wh" src="/assets/img/html-css-ou-javascript-qual-aprender-primeiro-1499777555318_600x320.jpg" alt="Tecnologias Web">
+            </div>
+        </div>
+        <section>
+            
+            <h2 class="center">Como Começar no Desenvolvimento Web (Guia para Iniciantes)</h2>
+            <div class="container">
+                <iframe 
+                width="600" 
+                height="315" 
+                src="https://www.youtube.com/embed/kirjakF8yh4" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+                </iframe>
+            </div>
             <h2>Conceitos para se lembrar</h2>
             <p>Com o vídeo assistido você já tem uma visão geral de como funciona o desenvolvimento web.
                 Porém, é preciso estar atento a alguns conceitos da área, portanto listei eles logo abaixo
@@ -141,13 +156,25 @@
             </p>
             <br>
 
-            <ul>
-                <li>
-                    <a href="contato.html"> Contato </a>
-                </li>
-            </ul>
-
         </section>
     </main>
+
+    <hr>
+    <footer>
+
+        <div class="container" >
+            <a href="https://www.linkedin.com/in/thiago-tomita-773248227/" target="_blank">
+                <img class="tamanho-social p-30" src="assets/img/logotipo-do-linkedin.png" alt="Logo do Linkedin">
+            </a>
+            <a href="https://github.com/SeijiTom" target="_blank">
+                <img class="tamanho-social p-30" src="assets/img/github.png" alt="Logo do GitHub">
+            </a>
+        </div>
+
+        <p class="center">
+            Todos os direitos reservados: Thiago Tomita &copy
+        </p>
+    </footer>
+
 </body>
 </html>
